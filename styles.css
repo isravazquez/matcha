@@ -22,7 +22,7 @@ body {
 }
 
 .logo>img {
-    width: 100%;
+    height: 100%;
 }
 
 .navbar {
@@ -30,7 +30,6 @@ body {
     text-align: center;
     color: #025157;
     font-weight: 500;
-    color: #025157;
 }
 
 .navbar>ul>li {
