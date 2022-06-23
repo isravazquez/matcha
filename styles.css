@@ -33,7 +33,7 @@ body {
 }
 
 .navbar {
-    width: 70%;
+    width: 60%;
     text-align: center;
     color: #025157;
     font-weight: 500;
@@ -80,7 +80,7 @@ h1 {
 
 p {
     color: #8b8b8bcc;
-    font-family: verdana;
+    font-family: Verdana;
     font-size: 20px;
 }
 
@@ -96,6 +96,11 @@ button {
     align-items: center;
 }
 
+iframe {
+    display: flex;
+    margin: auto;
+}
+
 .explanatory-video {
     display: flex;
     flex-direction: column;
@@ -107,7 +112,9 @@ button {
     margin-top: 10px;
 }
 
-.publish {}
+.publish {
+    margin-left: 30px;
+}
 
 .publish h3 {
     font-family: "Alegreya", serif;
@@ -136,9 +143,11 @@ button {
 
 .features {
     background-color: #025157;
+    margin-top: 5%;
     padding: 5% 10%;
     display: grid;
-    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+    height: 660px;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
 .features .feature-card {
@@ -155,6 +164,7 @@ button {
 
 .features .feature-card .feature-content {
     padding: 30px 20px 40px 40px;
+    flex: 2;
 }
 
 .features .feature-card .feature-content>* {
