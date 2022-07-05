@@ -380,3 +380,10 @@ iframe {
     object-fit: contain;
     width: 100%;
 }
+
+
+/*PSEUDOELEMNTOS*/
+
+.texto-boton:hover {
+    background-color: #67b54b;
+}
